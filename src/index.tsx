@@ -21,6 +21,9 @@ const GlobalCSS = createGlobalStyle`
       color:transparent;
     }
   }
+  body{
+    overflow-x:hidden;
+  }
 `;
 
 const rootElement = document.getElementById("root");
